@@ -21,7 +21,10 @@ module.exports = {
     },
     "files": "*.html",
     "watchOptions": {},
-    "server": false,
+    "server": {
+    index: "index.html"
+    },
+    //"server": false,
     "proxy": false,
     "port": 3000,
     "middleware": false,
